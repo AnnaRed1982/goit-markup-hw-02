@@ -53,7 +53,7 @@ body {
 
 /*HEADER*/
 .logo {
-	color: var(--blue);
+	color: var(--black);
 	text-decoration: none;
 	font-family: "Raleway";
 	font-style: normal;
@@ -63,7 +63,10 @@ body {
 	letter-spacing: 0.03em;
 }
 .logo-web {
-	color: var(--black);
+	color: var(--blue);
+}
+.logo.f{
+    color: var(--white);
 }
 
 .nav-link {
@@ -79,6 +82,10 @@ body {
 .nav-link:hover,
 .nav-link:focus {
 	color: var(--blue);
+    /* cursor: pointer; */
+}
+.nav-site .nav-link.current {
+    color: var(--blue);
 }
 .header-contact {
 	color: var(--greytext);
@@ -204,11 +211,37 @@ footer {
 }
 .flogo {
 	color: var(--blue);
-    text-decoration: none;
+	text-decoration: none;
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 31px;
 	/* letter-spacing: 0.03em; */
+}
+/* .adress-item {
+
+} */
+.adress-city {
+	text-decoration: none;
+	color: var(--white);
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	/* letter-spacing: 0.03em; */
+}
+.adress-contact {
+	text-decoration: none;
+	color: var(--greytext-footer);
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	/* letter-spacing: 0.03em; */
+
 }

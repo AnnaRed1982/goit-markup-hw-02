@@ -48,6 +48,7 @@
 body {
   background-color: var(--white);
   color: var(--greytext);
+  font-family: 'Roboto';
 }
 .list {
   list-style: none;
@@ -74,7 +75,7 @@ body {
 .nav-link {
   text-decoration: none;
   color: var(--accentblack);
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -84,7 +85,6 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--blue);
-  /* cursor: pointer; */
 }
 .nav-site .nav-link.current {
   color: var(--blue);
@@ -92,7 +92,7 @@ body {
 .header-contact {
   color: var(--greytext);
   text-decoration: none;
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -110,7 +110,7 @@ body {
 }
 .hero-title {
   color: var(--white);
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -126,6 +126,7 @@ body {
   height: 50px;
   left: 692px;
   top: 430px;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -135,31 +136,31 @@ body {
 /* Advant */
 .adv-title {
   color: var(--accentblack);
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  /* letter-spacing: 0.03em; */
-  /* text-transform: uppercase; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .adv-text {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
-  /* letter-spacing: 0.03em; */
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 /* WORK */
 .work-title {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  /* text-align: center;
-	letter-spacing: 0.03em; */
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--accentblack);
 }
 /* TEAM */
@@ -168,12 +169,12 @@ body {
 }
 .team-title {
   color: var(--accentblack);
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  /* text-align: center;*/
+  text-align: center;
   letter-spacing: 0.03em;
 }
 /* .team-comp {
@@ -188,23 +189,23 @@ body {
 
 } */
 .team-name {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* text-align: center;
-	letter-spacing: 0.03em; */
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--accentblack);
 }
 .team-text {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* text-align: center;
-	letter-spacing: 0.03em; */
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* FOOTER */
@@ -219,7 +220,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 }
 /* .adress-item {
 
@@ -233,56 +234,57 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 }
 .adress-contact {
   text-decoration: none;
   color: var(--greytext-footer);
 
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 }
 .adress-city:hover,
 .adress-city:focus,
 .adress-contact:hover,
 .adress-contact:focus {
-    color: var(--blueactive);
+  color: var(--blueactive);
 }
-
 
 /* //////////////////////////// */
 /* PORTFOLIO */
 
-.portf {
+/* .portf {
   background-color: var(--white);
   color: var(--greytext);
-}
+} */
 .portf-link {
   text-decoration: none;
 
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  /* text-align: center;*/
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--accentblack);
   background-color: var(--teamback);
+
+  cursor: pointer;
 }
 .portf-link:hover,
 .portf-link:focus {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--white);
   background: var(--blue);
@@ -296,7 +298,7 @@ footer {
   background-color: var(--progback);
 } */
 .portf-name {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -306,7 +308,7 @@ footer {
   color: var(--accentblack);
 }
 .portf-text {
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

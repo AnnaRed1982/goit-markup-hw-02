@@ -42,6 +42,8 @@
   --darkgrey: #2f303a;
   --shadow: rgba(0, 0, 0, 0.15);
   --teamback: #f5f4fa;
+  --progback: #eeeeee;
+  --portfborder: #eeeeee;
 }
 body {
   background-color: var(--white);
@@ -171,8 +173,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  /* text-align: center;
-	letter-spacing: 0.03em; */
+  /* text-align: center;*/
+  letter-spacing: 0.03em;
 }
 /* .team-comp {
 	
@@ -244,9 +246,21 @@ footer {
   line-height: 24px;
   /* letter-spacing: 0.03em; */
 }
+.adress-city:hover,
+.adress-city:focus,
+.adress-contact:hover,
+.adress-contact:focus {
+    color: var(--blueactive);
+}
+
 
 /* //////////////////////////// */
 /* PORTFOLIO */
+
+.portf {
+  background-color: var(--white);
+  color: var(--greytext);
+}
 .portf-link {
   text-decoration: none;
 
@@ -255,9 +269,47 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  /* text-align: center;
-  letter-spacing: 0.03em; */
+  /* text-align: center;*/
+  letter-spacing: 0.03em;
 
   color: var(--accentblack);
-  background-color: var(--teamback)
+  background-color: var(--teamback);
+}
+.portf-link:hover,
+.portf-link:focus {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--white);
+  background: var(--blue);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
+}
+.portf-progect {
+  border: 1px solid var(--portfborder);
+}
+/* .portf-img {
+  background-color: var(--progback);
+} */
+.portf-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: var(--accentblack);
+}
+.portf-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
